@@ -1,7 +1,16 @@
 <html>
 <head>
     <title>Lugares que debes visitar en Perú</title> 
-    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="style.css">  
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            document.getElementById("btnNewUrl").addEventListener("click", function(){
+            //window.location.href = "https://www.ue.edu.pe/"
+            window.open("https://www.ue.edu.pe/", "_blank")
+            alert("Hola")
+        });
+        });
+    </script> 
 </head>
 
 <body>
@@ -17,6 +26,7 @@
             <li>Explorar ls ruinas antiguas</li>
         </ul>
         <img src="assets/ruinas.jpg" alt="Visita a Machu Picchu">
+        <button id="btnNewUrl">Alerta</button>
     </section>    
     <hr>
     <section>
